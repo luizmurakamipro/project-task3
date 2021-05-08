@@ -7,8 +7,8 @@ const app = express();
 
 // Persistência
 mongoose.connect(
-	'mongodb+srv://dotask:dotask@cluster0.x4xy4.mongodb.net/dotask-db?retryWrites=true&w=majority',
-	{ useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false, useUnifiedTopology: true }
+	'mongodb+srv://dotask:dotask@totask2.edfjj.mongodb.net/dotask?retryWrites=true&w=majority',
+	{ useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false }
 );
 
 // Configurar a aplicação para usar o Body-Parser
