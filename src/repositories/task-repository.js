@@ -51,5 +51,5 @@ exports.put = async (id, data) => {
 
 // Delete
 exports.delete = async (id) => {
-    await Task.findByIdAndRemove(id);
+    await Task.findOneAndDelete(id);
 }
